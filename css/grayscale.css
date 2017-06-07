@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -121,10 +121,10 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 50px 0;
+  padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/vball-action-intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -141,12 +141,6 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
-.intro-text {
-  margin: 0 0 35px;
-  font-family: 'Mr Dafoe', cursive;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -162,7 +156,7 @@ a:focus {
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 60px;
+  margin-top: 15px;
   padding: 7px 16px;
   border: 2px solid white;
   border-radius: 100% !important;
@@ -223,36 +217,12 @@ a:focus {
     transform: scale(1);
   }
 }
-
-@media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
-  .intro .intro-body .brand-heading {
-    font-size: 100px;
-  }
-}
-
-  .about-section {
-	margin-bottom: 50px;
-  }
-
-
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-
-  display: flex;
-  align-items: center;
-}
-
 .content-section {
-  padding-top: 5px;
+  padding-top: 100px;
 }
 .download-section {
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: black;
@@ -268,7 +238,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 50px;
+    padding-top: 250px;
   }
   .download-section {
     padding: 100px 0;

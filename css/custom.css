@@ -1,0 +1,173 @@
+.navbar-custom.top-nav-collapse, .navbar-custom,.intro, body {
+	background-color: #000610;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: url(../img/haro_athletics_logo.png) no-repeat center scroll;
+  background-color: #000610;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+.navbar-header {
+	width:100%;
+}
+}
+body{
+	min-width: 200px
+}
+
+.row {
+	width:100% !important
+}
+.navbar-toggle {
+	margin-right:0;
+}
+
+
+
+.intro-section {
+	padding-bottom:20%;
+}
+@media screen and (min-width: 400px) {
+	.intro-section{
+		padding-bottom:80px;
+		font-size: 40px;
+	}
+	.intro .intro-body .brand-heading{
+		font-size: 40px;
+	}
+}
+
+.intro .intro-body{
+	margin-bottom: 10%;
+	vertical-align: bottom;
+}
+
+.intro .intro-body .brand-heading {
+	margin-bottom: 10px;
+}
+.bio-pic {
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+#bioCarousel {
+	position: relative;
+	width: 40%;
+	margin: 40px 30% 40px 30%;
+}
+.carousel-caption {
+	padding-bottom: 0;
+}
+.service-headings, .product-headings, .about-headings, .donation-headings {
+	margin-bottom: 10px;
+}
+.about-section {
+	margin-bottom: 20px;
+}
+.inverse-coloring {
+	background-color: white;
+	color: black
+}
+
+
+
+/*About*/
+#about, #services, #donate, #contact {
+	padding-top:55px;
+	min-height:100%;
+	width:100%;
+
+}
+
+
+/* Services*/
+
+
+.one-third {
+	width: 25%;
+	margin:5px 4% 5px 4%;
+	position: relative;
+	display: block;
+	float: left;
+}
+
+/*Products*/
+#products {
+	padding-top:55px;
+}
+
+.product-shirt {
+	width:100%;
+}
+
+@media screen and (max-width: 991px) {
+    .one-third {
+		width: 60%;
+		margin:10px 20% 10px 20%;
+    }
+}
+
+.add-to-cart {
+	width:75%;
+}
+@media screen and (max-width: 991px) {
+    .add-to-cart {
+		width: 30%;
+		margin:10px 35% 10px 35%;
+    }
+}
+.select-option {
+	width: 50%;
+	background-color: white;
+	color: black;
+	margin-bottom: 7px;
+}
+
+
+.banner-social-buttons li a.btn.btn-default.btn-lg{
+	display: block;
+	position: relative;
+	float: left;
+	margin:9% 10px 9% 10px;
+}
+ul.banner-social-buttons {
+	position:relative;
+	display: block;
+	width:74%;
+	margin-left:13%;
+}
+
+.donation-information{
+	width: 74%;
+	margin:10px 13% 10px 13%;
+	position: relative;
+	display: block;
+	float: left;
+}
+.donation-shirt {
+	width:25%;
+	min-width: 190px
+}
+
+.donation-text{
+	margin-top:20px;
+	font-size: 14px;
+}
+
+/*Contact Footer*/
+
+footer {
+	border-top: grey thin solid;
+}
+

@@ -9,12 +9,12 @@
   padding: 0;
   text-align: center;
   color: white;
-  background: url(../img/haro_athletics_logo.png) no-repeat center scroll;
+  background: url(../img/haro_athletics_logo_new.png) no-repeat center scroll;
   background-color: #000610;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 75% auto;
+  -moz-background-size: 75% auto;
+  background-size: 75% auto;
+  -o-background-size: 75% auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -63,8 +63,8 @@ body{
 }
 #bioCarousel {
 	position: relative;
-	width: 40%;
-	margin: 40px 30% 40px 30%;
+	width: 70%;
+	margin: 40px 15% 40px 15%;
 }
 .carousel-caption {
 	padding-bottom: 0;
@@ -119,12 +119,12 @@ body{
 }
 
 .add-to-cart {
-	width:75%;
+	width:50%;
 }
 @media screen and (max-width: 991px) {
     .add-to-cart {
-		width: 30%;
-		margin:10px 35% 10px 35%;
+		width: 50%;
+		margin:10px 25% 10px 25%;
     }
 }
 .select-option {
@@ -158,6 +158,11 @@ ul.banner-social-buttons {
 .donation-shirt {
 	width:25%;
 	min-width: 190px
+}
+.carousel-caption {
+	right:-40%;
+	bottom: auto;
+	top:-5%;
 }
 
 .donation-text{

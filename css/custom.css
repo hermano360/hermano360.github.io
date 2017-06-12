@@ -61,10 +61,26 @@ body{
 	width: 100%;
 	text-align: center;
 }
+
+
+
 #bioCarousel {
 	position: relative;
 	width: 70%;
 	margin: 40px 15% 40px 15%;
+}
+
+@media screen and (min-width: 720px) {
+	#bioCarousel {
+		position: relative;
+		width: 50%;
+		margin: 40px 25% 40px 25%;
+	}
+	.bio-pic {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	}
 }
 .carousel-caption {
 	padding-bottom: 0;
@@ -174,5 +190,8 @@ ul.banner-social-buttons {
 
 footer {
 	border-top: grey thin solid;
+}
+.about-info{
+	font-size: 10px
 }
 
